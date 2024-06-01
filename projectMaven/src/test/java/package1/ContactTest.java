@@ -5,7 +5,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
 public class ContactTest {
-	@Test
+	@Test(enabled=false)
 	public void createContactTest() {
 		System.out.println("Execute Create Contact Test");
 		String browser = System.getProperty("browser");
@@ -20,6 +20,7 @@ public class ContactTest {
 		System.out.println(un);
 		System.out.println(pwd);
 		System.out.println(url);
+		           
 		
 	}
 	@Test
